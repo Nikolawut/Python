@@ -1,0 +1,7 @@
+a = int(input("Unesite početak segmenta: "))
+b = int(input("Unesite kraj segmenta: "))
+djelilac = int(input("Unesite djelioc: "))
+suma_djeljivih = sum(x for x in range(a+1, b) if x % djelilac == 0)
+broj_djeljivih = sum(1 for x in range(a+1, b) if x % djelilac == 0)
+print("Suma djeljivih brojeva:", suma_djeljivih)
+print("Broj djeljivih brojeva:", broj_djeljivih)

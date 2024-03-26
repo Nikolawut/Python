@@ -1,0 +1,5 @@
+broj = int(input())
+broj_str = str(broj)
+n = len(broj_str)
+suma_cifara = sum(int(cifra)**n for cifra in broj_str)
+print("Da" if suma_cifara == broj else "Ne")
