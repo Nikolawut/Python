@@ -1,6 +1,6 @@
 import pandas as pd
 
-dataset = pd.read_csv("C:\Users\Lenovo\OneDrive\Documents\GitHub\Python\Test\dataset.csv")
+dataset = pd.read_csv(r"C:\Users\Lenovo\OneDrive\Documents\GitHub\Python\Test\dataset.csv")
 
 kolona = dataset['artists']
 
